@@ -1,11 +1,28 @@
 <resources>
-
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--设置沉浸式状态栏背景颜色-->
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--设置各控制元件(如：EditText光标、check box、switch 或是 radoi) 被勾选 (checked) 或是选定 (selected) 的颜色-->
         <item name="colorAccent">@color/colorAccent</item>
+        <!-- toolBar背景颜色-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- 标题字体颜色-->
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <!-- toolBar高度-->
+        <item name="actionBarSize">@dimen/title_height</item>
+        <!-- 设置输入框不被软键盘遮挡-->
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <!-- 分割线-->
+        <item name="android:listDivider">@drawable/divider_horizontal</item>
+    </style>
+
+
+
+
+    <!-- 解决启动页刚启动时白屏问题，实现秒启动-->
+    <style name="AppTheme.Launcher" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/layer_launcher</item>
+        <item name="android:windowFullscreen">true</item>
     </style>
 
 </resources>
