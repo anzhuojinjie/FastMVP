@@ -23,3 +23,6 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+#沉浸式状态栏
+-keep class com.gyf.barlibrary.* {*;}
+

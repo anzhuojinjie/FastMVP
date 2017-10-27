@@ -40,4 +40,7 @@ dependencies {
     compile 'io.reactivex:rxjava:1.1.2'
     compile 'io.reactivex:rxandroid:1.1.0'
     compile 'com.android.support:design:26.0.0-alpha1'
+    implementation files('libs/barlibrary-2.3.0.jar')
+    //compile 'com.youth.banner:banner:1.4.10'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
 }

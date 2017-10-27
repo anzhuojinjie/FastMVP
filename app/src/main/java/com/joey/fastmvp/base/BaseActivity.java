@@ -8,6 +8,8 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
 
+import com.gyf.barlibrary.ImmersionBar;
+import com.joey.fastmvp.R;
 import com.joey.fastmvp.app.AppManager;
 import com.joey.fastmvp.util.TUtil;
 
@@ -22,12 +24,16 @@ public abstract class BaseActivity<T extends BasePresenter> extends AppCompatAct
     public T mPresenter;
     public Context mContext;
     public BaseActivity mActivity;
+    private ImmersionBar mImmersionBar;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(getLayoutId());
+        mImmersionBar = ImmersionBar.with(this);
+        mImmersionBar.fitsSystemWindows(true)  //使用该属性,必须指定状态栏颜色
+                .statusBarColor(R.color.colorPrimaryDark)
+                .init();
         ButterKnife.bind(this);
         AppManager.getInstance().addActivity(this);
         mContext = this;
@@ -115,9 +121,11 @@ public abstract class BaseActivity<T extends BasePresenter> extends AppCompatAct
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        if (mPresenter != null) {
+        if (mImmersionBar != null)
+            mImmersionBar.destroy();
+        if (mPresenter != null)
+
             mPresenter.onDestroy();
-        }
         AppManager.getInstance().finishActivity(this);
     }
 }

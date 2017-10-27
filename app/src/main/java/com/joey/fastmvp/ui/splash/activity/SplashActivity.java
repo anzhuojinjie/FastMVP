@@ -17,7 +17,7 @@ public class SplashActivity extends BaseActivity {
 
     @Override
     public void loadData() {
-        startActivity(MainActivity.class);
+        startActivity(GuideActivity.class);
         finish();
     }
 }
