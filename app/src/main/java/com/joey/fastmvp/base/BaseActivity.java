@@ -3,9 +3,11 @@ package com.joey.fastmvp.base;
 
 import android.content.Context;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 
 
 import com.gyf.barlibrary.ImmersionBar;
@@ -24,7 +26,7 @@ public abstract class BaseActivity<T extends BasePresenter> extends AppCompatAct
     public T mPresenter;
     public Context mContext;
     public BaseActivity mActivity;
-    private ImmersionBar mImmersionBar;
+    public ImmersionBar mImmersionBar;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

@@ -24,5 +24,12 @@
         <item name="android:windowBackground">@drawable/layer_launcher</item>
         <item name="android:windowFullscreen">true</item>
     </style>
+    <!-- 解决启动页刚启动时白屏问题，实现秒启动-->
+    <style name="AppTheme.Guide" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="colorAccent">@android:color/transparent</item>
+    </style>
 
 </resources>
