@@ -4,6 +4,7 @@ import android.app.Application;
 import android.content.Context;
 
 import com.joey.fastmvp.config.ConfigUtil;
+import com.joey.fastmvp.util.ToastUtil;
 
 /**
  * 创建时间： 2017/10/25.
@@ -16,6 +17,7 @@ public class App extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+        ToastUtil.initialize(this);
         mApp = this;
     }
 
