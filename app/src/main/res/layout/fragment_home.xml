@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.joey.loanmarket.widget.CustomToolBar xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:orientation="vertical"
+        app:right_btn_src="@mipmap/ic_msg"
+        app:right_btn_visible="true"
+        app:title_text="首页"
+        app:title_visible="true"
+        tools:context=".ui.test.activity.TestActivity" />
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/ll_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.scwang.smartrefresh.layout.header.ClassicsHeader
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <com.joey.loanmarket.widget.banner.Banner
+                    android:id="@+id/banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp" />
+                <com.joey.loanmarket.widget.UPMarqueeView
+                    android:id="@+id/upview"
+                    android:layout_width="match_parent"
+                    android:layout_toRightOf="@+id/tbtv"
+                    android:layout_centerVertical="true"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:orientation="horizontal"
+                    android:background="@color/white"
+                    android:layout_marginTop="2dp"
+                    android:paddingTop="10dp">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="下款快"
+                        android:gravity="center"
+                        android:drawableTop="@mipmap/home_iv_src_xiazaizuikuai"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="平台多"
+                        android:gravity="center"
+                        android:drawableTop="@mipmap/home_iv_src_quanpintgai"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="利息低"
+                        android:gravity="center"
+                        android:drawableTop="@mipmap/home_iv_src_tongguolvgao"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="热门推荐"
+                    android:drawableLeft="@mipmap/home_iv_src_tuijian"
+                    android:drawablePadding="10dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/white"/>
+            </LinearLayout>
+        </ScrollView>
+        <com.scwang.smartrefresh.layout.footer.ClassicsFooter
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+
+</LinearLayout>

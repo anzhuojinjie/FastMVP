@@ -1,0 +1,61 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--设置沉浸式状态栏背景颜色-->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--设置各控制元件(如：EditText光标、check box、switch 或是 radoi) 被勾选 (checked) 或是选定 (selected) 的颜色-->
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- toolBar背景颜色-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- 标题字体颜色-->
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <!-- toolBar高度-->
+        <item name="actionBarSize">@dimen/title_height</item>
+        <!-- 设置输入框不被软键盘遮挡-->
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <!-- 分割线-->
+        <item name="android:listDivider">@drawable/divider_horizontal</item>
+        <!--多状态切换布局样式-->
+        <item name="styleLoadingLayout">@style/LoadingLayoutStyle</item>
+    </style>
+
+
+
+
+    <!-- 解决启动页刚启动时白屏问题，实现秒启动-->
+    <style name="AppTheme.Launcher" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/layer_launcher</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <!-- 引导页全屏-->
+    <style name="AppTheme.Guide" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="colorAccent">@android:color/transparent</item>
+    </style>
+
+    <!--引用多状态布局的样式，https://github.com/czy1121/loadinglayout-->
+    <style name="LoadingLayoutStyle" parent="LoadingLayout.Style">
+        <item name="llEmptyImage">@mipmap/empty</item>
+        <item name="llErrorImage">@mipmap/error</item>
+    </style>
+
+    <style name="around_view_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/around_view_bg_color</item>
+    </style>
+    <!--AroundFragment ListView样式-->
+    <style name="around_list_view_style" parent="Widget.AppCompat.ListView">
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:listSelector">#00000000</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:scrollingCache">false</item>
+    </style>
+    <style name="popwin_anim_style">
+        <item name="android:windowEnterAnimation">@anim/anim_still</item>
+        <item name="android:windowExitAnimation">@anim/anim_still</item>
+    </style>
+</resources>

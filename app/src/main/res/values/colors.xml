@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#488CFF</color>
+    <color name="colorPrimaryDark">#0099FF</color>
+    <color name="colorAccent">#0099FF</color>
+
+    <color name="bg_color">#f1f1f1</color>
+    <!-- 标题字体颜色 -->
+    <color name="textColorPrimary">#ffffff</color>
+    <!--标题栏颜色-->
+    <color name="bg_toolbar">#0099FF</color>
+    <color name="bg_top_btn_pressed">#969696</color>
+    <!-- 通用线条颜色-->
+    <color name="global_line_color">#d9d9d9</color>
+    <color name="global_hint_color">#cccccc</color>
+    <color name="global_blue_label_color1">#ff5145</color>
+    <color name="global_blue_label_color2">#35A7E9</color>
+
+    <color name="global_back_black_color">#f2f2f2</color>
+
+    <color name="global_white_color">#ffffff</color>
+    <!-- 字体颜色值 -->
+    <color name="text_color_blue">#0081E1</color>
+    <color name="text_color_black">#323232</color>
+    <color name="text_color_white">#ffffff</color>
+    <color name="text_color_gray">#888888</color>
+    <color name="text_color_gray_light">#A8A8A8</color>
+    <color name="text_color_red">#FF5B46</color>
+    <color name="text_color_input">#ff111111</color>
+    <color name="text_color_light">#ff404653</color>
+    <color name="text_color_time">#ffabb1bd</color>
+    <color name="text_color_money">#fff69382</color>
+    <color name="text_color_lianxi">#ff44444e</color>
+    <color name="text_color_lianxi_light">#ff7d869f</color>
+    <color name="text_color_unclickble">#ff8F949B</color>
+    <color name="text_color_publish_tip">#fffe8470</color>
+    <color name="text_color_car_line">#ff4595fe</color>
+    <color name="text_color_car_message">#ff7b828a</color>
+    <color name="text_color_state_true">#76DF76</color>
+    <color name="text_color_state_false">#FE8470</color>
+    <color name="text_color_hint">#80ffffff</color>
+    <color name="text_color_identity_tip">#ff858992</color>
+
+
+
+
+    <color name="btn_blue_normal">#0081E1</color>
+    <color name="btn_blue_pressed">#0066FF</color>
+
+    <!-- 分割线色值 -->
+    <color name="short_blue">#48B7FF</color>
+    <color name="short_red">#FF5B46</color>
+    <color name="short_orange">#F3B720</color>
+    <color name="split_color">#D9D9D9</color>
+    <color name="border_color">#A8A8A8</color>
+    <!--竖分割线-->
+    <color name="vertical_line_color">#B5B5B5</color>
+
+    <!-- 透明半透明色值 -->
+    <color name="transparent">#00000000</color>
+    <color name="transparent_half">#66000000</color>
+
+
+    <color name="bg_btn_red">#ED5C60</color>
+    <color name="bg_btn_red_light">#ED9482</color>
+    <!-- 设计规范颜色值 end-->
+
+    <!-- 黑白色值 -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="orange">#FFA500</color>
+    <color name="gray">#808080</color>
+    <color name="red">#FF0000</color>
+    <color name="gold">#FFD700</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="green">#008000</color>
+    <color name="blue">#0000FF</color>
+    <color name="purple">#800080</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="yellow_lemon">#FFFACD</color>
+    <color name="gray_light">#DFDFDF</color>
+    <color name="gray_white">#F5F5F5</color>
+    <color name="gray_slate">#708090</color>
+    <color name="blue_light">#0083FF</color>
+    <color name="act_background">#efefef</color>
+    <color name="gary">#898989</color>
+    <color name="origine">#ffee7433</color>
+
+    <color name="identity_car_success">#74df77</color>
+    <color name="identity_car_fail">#f69382</color>
+
+    <!-- GoodsListItem 首页最下面的listView -->
+    <color name="title_color">#ffff621d</color>
+    <color name="value_color">#ffa2a2a2</color>
+    <color name="app_white">#fff1f1f2</color>
+    <color name="good_price_color">#ffff6e21</color>
+    <color name="around_bg_color">#f0f0f0</color>
+    <color name="around_fl_bg">#5555</color>
+    <color name="around_list_title_color">#39ac69</color>
+    <color name="around_list_divider_color">#f0f0f0</color>
+    <color name="around_supplier_title_color">#5a5959</color>
+    <color name="popwin_bg_color">#5000</color>
+    <color name="around_view_bg_color">#e2e2e2</color>
+    <color name="around_supplier_title_selected_color">#39ac69</color>
+    <color name="detail_merchant_info_color">#ff3c3c3c</color>
+</resources>

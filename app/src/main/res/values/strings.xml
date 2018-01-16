@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FastMvp</string>
+    <string name="tab_mian">首页</string>
+    <string name="tab_loan">现金超市</string>
+    <string name="tab_information">资讯</string>
+    <string name="tab_my">我的</string>
+
+
+    <string name="around_supplier_list_all">全部</string>
+    <string name="around_supplier_list_sort">综合排序</string>
+    <string name="around_supplier_list_activity">优惠活动</string>
+</resources>
