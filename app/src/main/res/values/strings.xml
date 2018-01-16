@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">FastMvp</string>
-    <string name="tab_mian">首页</string>
-    <string name="tab_loan">贷款</string>
-    <string name="tab_information">资讯</string>
-    <string name="tab_my">我的</string>
-</resources>
