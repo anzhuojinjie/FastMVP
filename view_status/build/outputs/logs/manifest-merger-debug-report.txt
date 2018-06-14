@@ -1,37 +1,37 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\my\FastMvp\view_status\src\main\AndroidManifest.xml:1:1-5:12
-INJECTED from E:\my\FastMvp\view_status\src\main\AndroidManifest.xml:1:1-5:12
-INJECTED from E:\my\FastMvp\view_status\src\main\AndroidManifest.xml:1:1-5:12
-INJECTED from E:\my\FastMvp\view_status\src\main\AndroidManifest.xml:1:1-5:12
-INJECTED from E:\my\FastMvp\view_status\src\main\AndroidManifest.xml:1:1-5:12
-INJECTED from E:\my\FastMvp\view_status\src\main\AndroidManifest.xml:1:1-5:12
-INJECTED from E:\my\FastMvp\view_status\src\main\AndroidManifest.xml:1:1-5:12
+ADDED from C:\android\demo\FastMVP-master\FastMVP-master\view_status\src\main\AndroidManifest.xml:1:1-5:12
+INJECTED from C:\android\demo\FastMVP-master\FastMVP-master\view_status\src\main\AndroidManifest.xml:1:1-5:12
+INJECTED from C:\android\demo\FastMVP-master\FastMVP-master\view_status\src\main\AndroidManifest.xml:1:1-5:12
+INJECTED from C:\android\demo\FastMVP-master\FastMVP-master\view_status\src\main\AndroidManifest.xml:1:1-5:12
+INJECTED from C:\android\demo\FastMVP-master\FastMVP-master\view_status\src\main\AndroidManifest.xml:1:1-5:12
+INJECTED from C:\android\demo\FastMVP-master\FastMVP-master\view_status\src\main\AndroidManifest.xml:1:1-5:12
+INJECTED from C:\android\demo\FastMVP-master\FastMVP-master\view_status\src\main\AndroidManifest.xml:1:1-5:12
 	package
-		ADDED from E:\my\FastMvp\view_status\src\main\AndroidManifest.xml:1:11-46
-		INJECTED from E:\my\FastMvp\view_status\src\main\AndroidManifest.xml
-		INJECTED from E:\my\FastMvp\view_status\src\main\AndroidManifest.xml
+		ADDED from C:\android\demo\FastMVP-master\FastMVP-master\view_status\src\main\AndroidManifest.xml:1:11-46
+		INJECTED from C:\android\demo\FastMVP-master\FastMVP-master\view_status\src\main\AndroidManifest.xml
+		INJECTED from C:\android\demo\FastMVP-master\FastMVP-master\view_status\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from E:\my\FastMvp\view_status\src\main\AndroidManifest.xml
-		ADDED from E:\my\FastMvp\view_status\src\main\AndroidManifest.xml:1:1-5:12
-		INJECTED from E:\my\FastMvp\view_status\src\main\AndroidManifest.xml
+		INJECTED from C:\android\demo\FastMVP-master\FastMVP-master\view_status\src\main\AndroidManifest.xml
+		ADDED from C:\android\demo\FastMVP-master\FastMVP-master\view_status\src\main\AndroidManifest.xml:1:1-5:12
+		INJECTED from C:\android\demo\FastMVP-master\FastMVP-master\view_status\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from E:\my\FastMvp\view_status\src\main\AndroidManifest.xml
-		ADDED from E:\my\FastMvp\view_status\src\main\AndroidManifest.xml:1:1-5:12
-		INJECTED from E:\my\FastMvp\view_status\src\main\AndroidManifest.xml
+		INJECTED from C:\android\demo\FastMVP-master\FastMVP-master\view_status\src\main\AndroidManifest.xml
+		ADDED from C:\android\demo\FastMVP-master\FastMVP-master\view_status\src\main\AndroidManifest.xml:1:1-5:12
+		INJECTED from C:\android\demo\FastMVP-master\FastMVP-master\view_status\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from E:\my\FastMvp\view_status\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\android\demo\FastMVP-master\FastMVP-master\view_status\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
-INJECTED from E:\my\FastMvp\view_status\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from E:\my\FastMvp\view_status\src\main\AndroidManifest.xml
-INJECTED from E:\my\FastMvp\view_status\src\main\AndroidManifest.xml
-INJECTED from E:\my\FastMvp\view_status\src\main\AndroidManifest.xml
-INJECTED from E:\my\FastMvp\view_status\src\main\AndroidManifest.xml
+INJECTED from C:\android\demo\FastMVP-master\FastMVP-master\view_status\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\android\demo\FastMVP-master\FastMVP-master\view_status\src\main\AndroidManifest.xml
+INJECTED from C:\android\demo\FastMVP-master\FastMVP-master\view_status\src\main\AndroidManifest.xml
+INJECTED from C:\android\demo\FastMVP-master\FastMVP-master\view_status\src\main\AndroidManifest.xml
+INJECTED from C:\android\demo\FastMVP-master\FastMVP-master\view_status\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from E:\my\FastMvp\view_status\src\main\AndroidManifest.xml
-		ADDED from E:\my\FastMvp\view_status\src\main\AndroidManifest.xml
-		INJECTED from E:\my\FastMvp\view_status\src\main\AndroidManifest.xml
+		INJECTED from C:\android\demo\FastMVP-master\FastMVP-master\view_status\src\main\AndroidManifest.xml
+		ADDED from C:\android\demo\FastMVP-master\FastMVP-master\view_status\src\main\AndroidManifest.xml
+		INJECTED from C:\android\demo\FastMVP-master\FastMVP-master\view_status\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from E:\my\FastMvp\view_status\src\main\AndroidManifest.xml
-		ADDED from E:\my\FastMvp\view_status\src\main\AndroidManifest.xml
-		INJECTED from E:\my\FastMvp\view_status\src\main\AndroidManifest.xml
+		INJECTED from C:\android\demo\FastMVP-master\FastMVP-master\view_status\src\main\AndroidManifest.xml
+		ADDED from C:\android\demo\FastMVP-master\FastMVP-master\view_status\src\main\AndroidManifest.xml
+		INJECTED from C:\android\demo\FastMVP-master\FastMVP-master\view_status\src\main\AndroidManifest.xml
