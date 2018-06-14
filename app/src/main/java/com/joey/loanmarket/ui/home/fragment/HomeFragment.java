@@ -154,13 +154,15 @@ public class HomeFragment extends BaseFragment implements OnBannerListener{
      * 假如滚动的是三条或者一条，或者是其他，只需要把对应的布局，和这个方法稍微改改就可以了，
      */
     private void setView() {
-        for (int i = 0; i < data.size(); i ++) {
+        for (int i = 0; i < data.size()/2; i ++) {
             //设置滚动的单个布局
             RelativeLayout moreView = (RelativeLayout) LayoutInflater.from(getActivity()).inflate(R.layout.item_view, null);
             //初始化布局的控件
             TextView tv1 = moreView.findViewById(R.id.tv1);
+            TextView tv2 = moreView.findViewById(R.id.tv2);
             //进行对控件赋值
-            tv1.setText(data.get(i).toString());
+            tv1.setText(data.get(i*2).toString());
+            tv2.setText(data.get(i*2+1).toString());
             //添加到循环滚动数组里面去
             views.add(moreView);
         }
@@ -176,7 +178,7 @@ public class HomeFragment extends BaseFragment implements OnBannerListener{
         data.add("简直是白菜价！日本玩家33万甩卖15万张游戏王卡");
         data.add("iPhone7价格曝光了！看完感觉我的腰子有点疼...");
         data.add("主人内疚逃命时没带够，回废墟狂挖30小时！");
-//        data.add("竟不是小米乐视！看水抢了骁龙821首发了！！！");
+        data.add("竟不是小米乐视！看水抢了骁龙821首发了！！！");
 
     }
 }
